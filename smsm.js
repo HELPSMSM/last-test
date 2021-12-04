@@ -18,7 +18,7 @@ smsm.on("ready", () => {
         status: 'online', //idle online dnd
         activity: {
             name: `اي شئ`,
-            type: "WATCHING",
+            type: "PLAYING",
         }
     })
 });
