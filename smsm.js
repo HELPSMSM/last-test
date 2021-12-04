@@ -17,5 +17,5 @@ clientclient.on("ready", () => {
     })
 });
 
-smsm.login("");
+smsm.login("OTE2Njg3MTUxNTExNTA3MDE2.Yatylw.IEBMTcoIH2g_e6ErCZLQhAsPeWg");
     
