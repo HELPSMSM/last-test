@@ -6,9 +6,9 @@ var channel = smsm.channels.cache.get('id channel vc dane');
     if (channel) channel.join.join();
 });
 
-clientclient.on("ready", () => {
-    console.log(`Im' ${client.user.username}`)
-    client.user.setPresence({
+smsm.on("ready", () => {
+    console.log(`Im' ${smsm.user.username}`)
+    smsm.user.setPresence({
         status: 'online', //idle online dnd
         activity: {
             name: `اي شئ`,
