@@ -22,7 +22,7 @@ smsm.on("ready", () => {
 
     let PLAYING = statuses[Math.floor(Math.random() * statuses.length)];
 
-    jano14.user.setActivity(PLAYING, {
+    smsm.user.setActivity(PLAYING, {
       status: "dnd",
       type: "playing",
       
