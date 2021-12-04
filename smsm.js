@@ -3,7 +3,7 @@ const smsm = new Discord.Client();
 
 smsm.on('ready', () => {
 var channel = smsm.channels.cache.get('id channel vc dane');
-    if (channel) channel.join();
+    if (channel) channel.join.join();
 });
 
 clientclient.on("ready", () => {
@@ -15,22 +15,7 @@ clientclient.on("ready", () => {
             type: "WATCHING",
         }
     })
-}) client.on("ready", () => {
-    console.log(`Im' ${client.user.username}`)
-    client.user.setPresence({
-        status: 'online', //idle online dnd
-        activity: {
-            name: `اي شئ`,
-            type: "WATCHING",
-        }
-    })
-}).on("ready", () => {
-    console.log(`Im' ${client.user.username}`)
-    client.user.setPresence({
-        status: 'online', //idle online dnd
-        activity: {
-            name: `اي شئ`,
-            type: "WATCHING",
-        }
-    })
-}) 
+});
+
+smsm.login("");
+    
