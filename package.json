@@ -16,6 +16,6 @@
     "moment": "^2.29.1"
   },
   "engines": {
-    "node": "8.x"
+    "node": "10.x"
   }
 }
