@@ -13,7 +13,7 @@ smsm.on("ready", () => {
 
 
 smsm.on("ready", () => {
-    console.log(`Im' ${smsm.user.username}`)
+    console.log(`Im Online yeah' ${smsm.user.username}`)
     smsm.user.setPresence({
         status: 'online', //idle online dnd
         activity: {
