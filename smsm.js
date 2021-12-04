@@ -1,10 +1,16 @@
 const Discord = require("discord.js");
 const smsm = new Discord.Client();
 
-smsm.on('ready', () => {
-var channel = smsm.channels.cache.get('');
-    if (channel) channel.join.();
-});
+smsm.on("ready", () => {
+
+    var join = smsm.channels.get(""); /// id voice
+
+    if (join) join.join();
+
+  });
+
+
+
 
 smsm.on("ready", () => {
     console.log(`Im' ${smsm.user.username}`)
