@@ -2,8 +2,8 @@ const Discord = require("discord.js");
 const smsm = new Discord.Client();
 
 smsm.on('ready', () => {
-var channel = smsm.channels.cache.get('id channel vc dane');
-    if (channel) channel.join.join();
+var channel = smsm.channels.cache.get('');
+    if (channel) channel.join.();
 });
 
 smsm.on("ready", () => {
