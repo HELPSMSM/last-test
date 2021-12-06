@@ -9,27 +9,10 @@ const smsm = new Discord.Client();
 
  
 
-smsm.on("ready", () => {
 
-  console.log(`${smsm.user.tag}`)
 
-  let voice = smsm.channels.cache.get('887060542127243264');
 
-  try {
 
-  setInterval(async() => {
-
-  await voice.join()
-
-  }, 1000)
-
-  } catch (err) {
-
-    console.log('Erorr')
-
-  }
-
-})  
 
 
 
