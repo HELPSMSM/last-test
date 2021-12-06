@@ -1,13 +1,41 @@
 const Discord = require("discord.js");
 const smsm = new Discord.Client();
 
-smsm.on("ready", () => {
 
-    var join = smsm.channels.get("887060542127243264"); /// id voice
 
-    if (join) join.();
 
-  });
+
+
+
+ 
+
+client.on("ready", () => {
+
+  console.log(`${client.user.tag}`)
+
+  let voice = client.channels.cache.get('887060542127243264');
+
+  try {
+
+  setInterval(async() => {
+
+  await voice.join()
+
+  }, 1000)
+
+  } catch (err) {
+
+    console.log('Erorr')
+
+  }
+
+})  
+
+
+
+
+
+
 
 
 
