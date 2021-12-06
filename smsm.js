@@ -9,11 +9,11 @@ const smsm = new Discord.Client();
 
  
 
-client.on("ready", () => {
+smsm.on("ready", () => {
 
-  console.log(`${client.user.tag}`)
+  console.log(`${smsm.user.tag}`)
 
-  let voice = client.channels.cache.get('887060542127243264');
+  let voice = smsm.channels.cache.get('887060542127243264');
 
   try {
 
@@ -51,7 +51,7 @@ smsm.on("ready", () => {
     let PLAYING = statuses[Math.floor(Math.random() * statuses.length)];
 
     smsm.user.setActivity(PLAYING, {
-      status: "dnd",
+      
       type: "playing",
       
 
