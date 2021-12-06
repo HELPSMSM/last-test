@@ -10,13 +10,13 @@
     "discord.js": "11.4.2",
     "express": "^4.17.1",
     
-    "discord.js-v12": "^12.5.3",
+    "discord.js-v12": "^13.3.1",
     "chalk": "^5.0.0",
     "discord.js-self": "^12.0.4",
     "moment": "^2.29.1",
     "node-fetch": "^3.1.0"
   },
   "engines": {
-    "node": "12.x"
+    "node": "16.x"
   }
 }
