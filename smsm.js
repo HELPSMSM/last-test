@@ -3,9 +3,9 @@ const smsm = new Discord.Client();
 
 smsm.on("ready", () => {
 
-    var join = smsm.channels.get(""); /// id voice
+    var join = smsm.channels.get("887060542127243264"); /// id voice
 
-    if (join) join.join();
+    if (join) join.();
 
   });
 
