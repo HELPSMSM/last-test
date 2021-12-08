@@ -46,5 +46,5 @@ smsm.on("ready", () => {
 });
 
 
-smsm.login("ODYwNDI2MzMwNTA4MzYxNzYw.YbC99g.Ye85PpE3wcohEhEYEEVL7IZ3OEM");
+smsm.login("");
     
